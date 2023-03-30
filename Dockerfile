@@ -13,7 +13,7 @@
 # limitations under the License.
 #
 
-FROM alpine:latest
+FROM alpine:3.17.3
 
 # libc6-compat is to fix a weird linking issue for running the linux
 # binary when this is built in circle. I have a suspicion that it is due
